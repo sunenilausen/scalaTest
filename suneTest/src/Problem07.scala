@@ -9,7 +9,9 @@ object Problem07 {
   def main (args: Array[String]) {
     var list = flatten(List(List(1, 1), 2, List(3, List(5, 8))))
 
+
     printList(list)
+
 
   }
 
