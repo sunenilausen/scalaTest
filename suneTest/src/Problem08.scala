@@ -10,6 +10,6 @@ object Problem08 {
   }
 
   def compress(list: List[Symbol]): List[Symbol] ={
-    return List
+    return list
   }
 }
