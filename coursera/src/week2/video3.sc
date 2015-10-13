@@ -1,5 +1,4 @@
 import math.abs
-
 object video3{
   val tolerance = 0.0001
   def isCloseEnough(x: Double, y: Double) =
@@ -13,7 +12,7 @@ object video3{
     iterate(firstGuess)
   }
   def averageDamp(f: Double => Double)(x: Double) = (x + f(x))/2
-
   def sqrt(x: Double) =
-    fixedPoint()
+    fixedPoint(averageDamp(y => x / y))(1)
+  sqrt(2)
 }
