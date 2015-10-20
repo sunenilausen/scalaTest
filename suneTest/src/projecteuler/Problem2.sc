@@ -4,11 +4,12 @@
 //
 //By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-def evenFibonnaciNumbers(x1: Int, x2: Int, max: Int): Int = {
-  if (x2 > max) return 0
-  else if (x2%2 == 1) return evenFibonnaciNumbers(x2,x1 + x2,max)
-  else return x2 + evenFibonnaciNumbers(x2,x1 + x2,max)
+def evenFibonnaciNumbers(x: Int, y: Int, max: Int): Int = {
+  if (y > max) return 0
+  else if (y%2 == 1) return evenFibonnaciNumbers(y, x + y, max)
+  else return y + evenFibonnaciNumbers(y, x + y, max)
 }
 
 evenFibonnaciNumbers(1,2,4000000)
 
+def simplerEvenFibonnaciNumbers(x: Int, y: Int, max: Int) = ()

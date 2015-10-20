@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b73ff2d-982e-40da-a3a1-b0af64f734d1" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\GIT\scalaTest\suneTest\src\TestUtility.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suneTest/out/production/suneTest/Problem07$$anonfun$flatten$1.class" afterPath="$PROJECT_DIR$/suneTest/out/production/suneTest/Problem07$$anonfun$flatten$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suneTest/out/production/suneTest/Problem07$.class" afterPath="$PROJECT_DIR$/suneTest/out/production/suneTest/Problem07$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suneTest/src/TestUtility/PrintMethods.scala" afterPath="$PROJECT_DIR$/suneTest/src/TestUtility/PrintMethods.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suneTest/src/Problem07.scala" afterPath="$PROJECT_DIR$/suneTest/src/Problem07.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suneTest/.idea/misc.xml" afterPath="$PROJECT_DIR$/suneTest/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suneTest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/suneTest/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/suneTest/src/projecteuler/Problem3.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suneTest/src/projecteuler/Problem1.sc" afterPath="$PROJECT_DIR$/suneTest/src/projecteuler/Problem1.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suneTest/src/projecteuler/Problem2.sc" afterPath="$PROJECT_DIR$/suneTest/src/projecteuler/Problem2.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scalaTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +26,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PrintMethods.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintMethods.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/suneTest/src/TestUtility/PrintMethods.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16943522">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem1.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suneTest/src/projecteuler/Problem1.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19607843">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem2.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suneTest/src/projecteuler/Problem2.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27450982">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem3.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/suneTest/src/projecteuler/Problem3.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.09803922">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,6 +88,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -74,6 +108,9 @@
       <list>
         <option value="$PROJECT_DIR$/suneTest/src/Problem07.scala" />
         <option value="$PROJECT_DIR$/suneTest/src/TestUtility/PrintMethods.scala" />
+        <option value="$PROJECT_DIR$/suneTest/src/projecteuler/Problem1.sc" />
+        <option value="$PROJECT_DIR$/suneTest/src/projecteuler/Problem2.sc" />
+        <option value="$PROJECT_DIR$/suneTest/src/projecteuler/Problem3.sc" />
       </list>
     </option>
   </component>
@@ -107,7 +144,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,10 +219,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalaTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalaTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suneTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projecteuler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,6 +435,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -430,6 +490,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/suneTest/src/TestUtility/PrintMethods.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suneTest/src/Problem07.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suneTest/src/Problem08.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/suneTest/src/Problem08.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -448,8 +532,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/suneTest/src/TestUtility/PrintMethods.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16943522">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suneTest/src/projecteuler/Problem1.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19607843">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suneTest/src/projecteuler/Problem2.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27450982">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suneTest/src/projecteuler/Problem3.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09803922">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

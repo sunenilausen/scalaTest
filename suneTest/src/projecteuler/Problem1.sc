@@ -11,6 +11,6 @@ def findMultiples3and5(x: Int): Int = {
 
 findMultiples3and5(999)
 
-def betterFindMultiples3and5(x: Int) = (1 to x).filter(x => x%3 == 0 || x%5 == 0).sum
+def simplerFindMultiples3and5(x: Int) = (1 to x).filter(x => x%3 == 0 || x%5 == 0).sum
 
-betterFindMultiples3and5(999)
+simplerFindMultiples3and5(999)
