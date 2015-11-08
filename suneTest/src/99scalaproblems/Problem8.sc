@@ -20,7 +20,7 @@ removeDuplicates(List("a", "a", "a", "a", "b", "c", "c", "a", "a", "d", "e", "e"
 
 def removeConsecutiveDuplicates(a: List[String]): List[String] = {
   if (a.isEmpty) return a
-  val b = a.dropWhile(x => x != a(0))
+  val b = a.dropWhile(x => x == a(0))
   return a(0)::removeDuplicates(b)
 }
 
