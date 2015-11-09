@@ -18,11 +18,15 @@ def removeDuplicates(a: List[String]): List[String] = {
 
 removeDuplicates(List("a", "a", "a", "a", "b", "c", "c", "a", "a", "d", "e", "e", "e", "e"))
 
+
 def removeConsecutiveDuplicates(a: List[String]): List[String] = {
   if (a.isEmpty) return a
-  val b = a.dropWhile(x => x != a(0))
+  val b = a.dropWhile(x => x == a(0))
   return a(0)::removeDuplicates(b)
 }
 
 removeConsecutiveDuplicates(List("a", "a", "a", "a", "b", "c", "c", "a", "a", "d", "e", "e", "e", "e"))
 
+
+// Official Solutions
+//http://aperiodic.net/phil/scala/s-99/p08.scala
